@@ -24,8 +24,8 @@
     <style>
     .gridStyle {
         border: 1px solid rgb(212,212,212);
-        max-width: 1000px; 
-        height: 300px
+        max-width: 1400px; 
+        min-height: 300px;
     }
     </style>
 
@@ -64,7 +64,7 @@
       <script src="bower_components/lodash/dist/lodash.compat.js"></script>
       <script src="bower_components/angular-socket-io/socket.js"></script>
       <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-      <script src="bower_components/ng-grid/ng-grid-2.0.14.debug.js"></script>
+      <script src="bower_components/ng-grid/build/ng-grid.js"></script>
       <!-- endbower -->
       <script src="socket.io-client/socket.io.js"></script>
     <!-- endbuild -->
@@ -82,6 +82,8 @@
           <script src="app/extra/extra.js"></script>
           <script src="app/main/main.controller.js"></script>
           <script src="app/main/main.js"></script>
+          <script src="app/manage/manage-price/manage-price.controller.js"></script>
+          <script src="app/manage/manage-quantity/manage-quantity.controller.js"></script>
           <script src="app/manage/manage.controller.js"></script>
           <script src="app/manage/manage.js"></script>
           <script src="components/auth/auth.service.js"></script>
@@ -89,6 +91,7 @@
           <script src="components/modal/modal.service.js"></script>
           <script src="components/mongoose-error/mongoose-error.directive.js"></script>
           <script src="components/navbar/navbar.controller.js"></script>
+          <script src="components/navbar/navbar.directive.js"></script>
           <script src="components/socket/socket.service.js"></script>
           <!-- endinjector -->
         <!-- endbuild -->
